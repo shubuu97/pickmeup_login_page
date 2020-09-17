@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  Container,
-  Heading,
-  LoginButtonContainer,
-  LoginButton
-} from "./styles";
+import { Container, Heading, LoginButtonContainer } from "./styles";
 import TextInputStyled from "../../widget/textInput";
 import { Button } from "react-native";
 
@@ -12,7 +7,7 @@ const login = ({
   email,
   password,
   handleEmailChange,
-  handlePasswordChange
+  handlePasswordChange,
 }) => {
   return (
     <Container>
